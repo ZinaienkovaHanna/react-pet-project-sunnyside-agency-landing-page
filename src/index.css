@@ -27,7 +27,7 @@
 
   /* family */
   --ff-barlow: 'Barlow';
-  --ff-fraunces: 'Fraunces 9pt Soft';
+  --ff-fraunces: 'Fraunces';
 }
 
 #root {
@@ -38,5 +38,4 @@
 body {
   font-family: var(--ff-barlow);
   font-weight: 600;
-  /* color: var(--white); */
 }
