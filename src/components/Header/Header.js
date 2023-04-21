@@ -46,6 +46,11 @@ const Header = () => {
         </button>
       </div>
       <h1>We are creatives</h1>
+      <img
+        src="\images\icon-arrow-down.svg"
+        alt="arrow-down"
+        className={styles.arrowDown}
+      />
     </header>
   );
 };

@@ -13,14 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
   position: relative;
-}
-
-.headerContainer img:hover {
-  opacity: 0.75;
-  cursor: pointer;
-  transition: all 0.3s ease;
 }
 
 .headerNav {
@@ -151,6 +144,12 @@
   max-width: 327px;
 }
 
+.arrowDown {
+  padding-top: 52px;
+  display: block;
+  margin: 0 auto;
+}
+
 @media (min-width: 1440px) {
   .headerBg {
     background-image: url('../../../public/images/desktop/image-header.jpg');
@@ -201,5 +200,9 @@
     line-height: 69px;
     letter-spacing: 8.75px;
     min-width: 750px;
+  }
+
+  .arrowDown {
+    padding-top: 96px;
   }
 }
