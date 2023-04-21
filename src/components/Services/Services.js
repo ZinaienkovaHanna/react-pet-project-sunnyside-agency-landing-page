@@ -2,7 +2,7 @@ import styles from './Services.module.css';
 
 const Services = () => {
   return (
-    <div className={styles.gridContainer}>
+    <div id="about" className={styles.gridContainer}>
       <img
         src="/images/mobile/image-transform.jpg"
         alt="Transform"
@@ -31,7 +31,7 @@ const Services = () => {
         </p>
         <a href="#about">LEARN MORE</a>
       </div>
-      <div className={styles.graphicDesign}>
+      <div id="services" className={styles.graphicDesign}>
         <h3>Graphic Design</h3>
         <p>
           Great design makes you memorable. We deliver artwork that underscores

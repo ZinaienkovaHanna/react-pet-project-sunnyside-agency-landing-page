@@ -6,8 +6,9 @@
   border: 2px solid red;
 }
 
-.transformImg {
-  max-width: 375px;
+.transformImg,
+.standOutImg {
+  width: 100%;
 }
 
 .transformText {
@@ -15,10 +16,6 @@
   padding: 56px 0 64px 0;
   margin: 0 auto;
   border: 1px solid green;
-}
-
-.standOutImg {
-  max-width: 375px;
 }
 
 .standOutText {
@@ -166,9 +163,12 @@
     grid-column: 2;
   }
 
-  .transformImg,
+  .transformImg {
+    content: url('../../../public/images/desktop/image-transform.jpg');
+  }
+
   .standOutImg {
-    max-width: 720px;
+    content: url('../../../public/images/desktop/image-stand-out.jpg');
   }
 
   .transformText,

@@ -4,14 +4,14 @@ import styles from './Testimonials.module.css';
 
 const Testimonials = () => {
   return (
-    <>
+    <div className={styles.testimonialsContainer}>
       <h3>CLIENT TESTIMONIALS</h3>
-      <div className={styles.testimonialsContainer}>
+      <div className={styles.testimonials}>
         {testimonials.map((testimonial) => (
           <Testimonial key={testimonial.id} {...testimonial} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

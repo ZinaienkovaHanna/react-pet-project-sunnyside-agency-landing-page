@@ -1,0 +1,59 @@
+.emily img,
+.thomas img,
+.jennie img {
+  width: 72px;
+  border-radius: 50%;
+  display: block;
+  margin: 64px auto 32px auto;
+}
+
+.emily p,
+.thomas p,
+.jennie p {
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--very-dark-grayish-blue);
+}
+
+.emily h4,
+.thomas h4,
+.jennie h4 {
+  font-family: var(--ff-fraunces);
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: var(--very-dark-desaturated-blue);
+  padding: 32px 0 9px 0;
+}
+
+.emily h5,
+.thomas h5,
+.jennie h5 {
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--grayish-blue);
+}
+
+@media (min-width: 1440px) {
+  .emily,
+  .thomas,
+  .jennie {
+    width: 350px;
+    border: 1px solid green;
+  }
+
+  .emily img,
+  .thomas img,
+  .jennie img {
+    margin: 81px auto 58px auto;
+  }
+
+  .emily h4,
+  .thomas h4,
+  .jennie h4 {
+    padding: 59px 0 9px 0;
+  }
+}

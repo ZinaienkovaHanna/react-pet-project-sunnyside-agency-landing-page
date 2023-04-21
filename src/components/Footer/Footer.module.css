@@ -1,0 +1,80 @@
+.gridContainer {
+  width: 375px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.gridContainer img {
+  width: 100%;
+}
+
+.bgContainer {
+  background-color: var(--bg-footer);
+  height: 350px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+
+.linkContainer {
+  width: 297px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkContainer a {
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--dark-moderate-cyan-footer);
+  text-decoration: none;
+}
+
+.linkContainer a:hover {
+  color: var(--white);
+}
+
+.socialContainer {
+  width: 165px;
+  margin: 0 auto;
+  padding-top: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialContainer a:hover svg path {
+  fill: white;
+}
+
+@media (min-width: 1440px) {
+  .gridContainer {
+    width: 1440px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .gridContainer img:nth-child(1) {
+    content: url('../../../public/images/desktop/image-gallery-milkbottles.jpg');
+  }
+
+  .gridContainer img:nth-child(2) {
+    content: url('../../../public/images/desktop/image-gallery-orange.jpg');
+  }
+
+  .gridContainer img:nth-child(3) {
+    content: url('../../../public/images/desktop/image-gallery-cone.jpg');
+  }
+
+  .gridContainer img:nth-child(4) {
+    content: url('../../../public/images/desktop/image-gallery-sugarcubes.jpg');
+  }
+
+  .logo {
+    padding-top: 72px;
+  }
+}

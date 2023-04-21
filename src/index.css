@@ -16,6 +16,8 @@
   --dark-desaturated-cyan-graphic-design-text: hsl(167, 40%, 24%);
   --dark-blue-photography-text: hsl(198, 62%, 26%);
   --dark-moderate-cyan-footer: hsl(168, 34%, 41%);
+  --bg-footer: hsla(168, 44%, 70%, 1);
+  --white: hsla(0, 0%, 100%, 1);
 
   /* ### Neutral */
 

@@ -1,0 +1,32 @@
+.testimonialsContainer {
+  width: 327px;
+  margin: 64px auto 86px auto;
+  border: 1px solid red;
+}
+
+.testimonialsContainer h3 {
+  font-family: var(--ff-fraunces);
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: var(--grayish-blue);
+}
+
+@media (min-width: 1440px) {
+  .testimonialsContainer {
+    width: 1110px;
+    margin: 160px auto;
+  }
+  .testimonials {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .testimonialsContainer h3 {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 5px;
+  }
+}
